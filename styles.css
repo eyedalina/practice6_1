@@ -1,0 +1,118 @@
+.header {
+    background-color: #0000FF;
+    font-size: 30px;
+    font-family: "Arial";
+    padding: 30px;
+    color: white;
+    font-weight: 600;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .factsL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    font-size: 70px;
+    font-weight: 600;
+    font-family: "Arial";
+    width: 850px;
+    text-align: center;
+    margin: 0 10px 0 80px;
+    height: 400px;
+  }
+
+  .factsR {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    font-size: 70px;
+    font-weight: 600;
+    font-family: "Arial";
+    width: 850px;
+    text-align: center;
+    margin: 0px 80px 0px 10px;
+    height: 400px;
+  }
+
+
+  .flexEl {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .up {
+    margin-top: 120px;
+    margin-bottom: 20px
+  }
+
+  .down {
+    margin-bottom: 100px
+  }
+
+  .footer {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    background-color: #0000FF;
+    font-size: 30px;
+    font-family: "Arial";
+    padding: 30px;
+    color: white;
+    font-weight: 600;
+  }
+
+  @media only screen and (max-width:500px) {
+    .factsR {
+        font-size: 25px;
+        margin: 50px 20px 0 20px;
+        height: 200px;
+        padding: 0 10px;
+      }
+    
+      .factsL {
+        font-size: 25px;
+        margin: 50px 20px 0 20px;
+        height: 200px;
+        padding: 0 10px;
+      }
+
+      .flexEl {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    
+      .up:first-of-type {
+        margin-top: 20px;
+      }
+    
+      .down:last-of-type {
+        margin-bottom: 20px
+      }
+      
+      .footer {
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: start;
+        display: flex;
+        margin: auto;
+        background-color: #0000FF;
+        font-size: 20px;
+        font-family: "Arial";
+        padding: 30px;
+        color: white;
+        font-weight: 600;
+        font-weight: ;
+      }
+      .right {
+        visibility: hidden;
+      }
+  }
